@@ -53,6 +53,10 @@ jobs:
     name: Build packages
     needs: createrelease
     runs-on: ${{ matrix.os }}
+    permissions:
+      contents: write
+      pull-requests: write
+      repository-projects: write
     strategy:
       matrix:
         include:
