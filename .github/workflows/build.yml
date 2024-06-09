@@ -55,7 +55,7 @@ jobs:
           - os: windows-latest
             TARGET: windows
             CMD_BUILD: python setup.py build
-            OUT_FILE_NAME: agrupar_avcs
+            OUT_FILE_NAME: acorrigir_socpar_ecd
             ASSET_MIME: application/vnd.microsoft.portable-executable
 
     steps:
